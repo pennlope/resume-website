@@ -1,0 +1,293 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Penelope's Resume</title>
+        <link rel="stylesheet" href="styleResume.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5e7a135010.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <img id="headshot" src="Prochnow_Penelope_20240109_J8H_3527~pp872.jpg" alt="Headshot">
+        <div id="header-content">
+            <p id="name">Penelope Prochnow</p>
+            <a href="mailto:penny4pennies@gmail.com" target="_blank"><p id="email">penny4pennies@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i></p></a>
+            <p id="header-info">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Starkville, Mississippi  <br>
+                <i class="fa fa-phone" aria-hidden="true"></i> (228) 355-1629 
+                <div id = "social-icons">
+                    <a href="https://www.linkedin.com/in/penelope-prochnow/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://github.com/pennlope"><i class="fa fa-github" aria-hidden="true"></i></a> <br>
+
+                </div>
+            </p>
+        </div>
+    </div>
+    
+
+     <div class="wraper">
+        <div class = "container">
+            <div class = "left-content p-30">
+                <div class = "nav">
+                    <ul>
+                        <li><a href = "#Ho me" onclick="showSection('Home')">Home</a></li>
+                        <li><a href = "#Work Profile" onclick="showSection('WorkProfile')">Work Profile</a></li>
+                        <li><a href = "#Port folio" onclick="showSection('Portfolio')">Portfolio</a></li>
+                        <li><a href = "#Edu cation" onclick="showSection('Education')">Education</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="section1 p-30" id="Home">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Home</div>
+                        <div class="pg-title">Professional Summary</div>
+                    </div>
+                    <p>
+                        Currently pursuing a Bachelors of Data Science with a concentration in Statistical Modeling with advanced mathematical abilities and in-depth 
+                        understanding of statistical analysis and model building. Knowledgeable about computer programming languages and analytical strategies stemming from 
+                        advanced classes in Statistics, Mathematics and Computer Programming. Offering strong critical thinking skills, diligent nature and 5+ years of related experience. <br>
+                    </p>
+                    <div class="pg-title">Skills</div>
+                    <p>
+                    <ul class="skill-set">
+                        <li>Python Programming</li>
+                        <li>C++ Programming</li>
+                        <li>R Programming, RStudio</li>
+                        <li>Jupyter Notebook</li>
+                        <li>Tableau</li>
+                        <li>Excel, VBA Macros</li>
+                        <li>Data Visualization</li>
+                        <li>Team and Client Relations</li>
+                        <li>Dashboard Development</li>
+                        <li>Problem-Solving</li>
+                        <li>Flexibility and Adaptability</li>
+                        <li>Presentation</li>
+                        <li>Charity Participation</li>
+                        <li>Policies</li>
+                    </ul>
+                </p>
+                    <div class="pg-title">Accomplishments</div>
+                    <p>
+                    <ul class="accomplishments-list">
+                        <li>
+                            <strong>Research publication</strong> presented at the Computational Sciences and Computational Intelligence Conference, 2023. 
+                            <u><a href="#SCproject" onclick="showSection('Portfolio')">View project</a></u>
+                        </li>
+                        <li>
+                            <strong>Spokesperson and advocate</strong> for the Data Science program at Mississippi State University. Represented the program at Academic Insight and Scholar's Recognition events.
+                        </li>
+                        <li><strong>Founding member</strong> of the Data Science Club</li>
+                        <li>
+                            <strong>Honorable Mention award recipient</strong> at MAS 2023 Research Symposium for USDA Aflatoxin research presentation. 
+                            <u><a href="#Spotifyproject" onclick="showSection('Portfolio')">View project</a></u>
+                        </li>
+                        <li>Volunteer member of <strong>Statistics Without Borders</strong></li>
+                    </ul>
+                </p>
+                </div>
+                <div class="section1 p-30" id="WorkProfile" style="display:none;">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Work Profile</div>
+                        <div class="pg-title t-center">Data Science Undergraduate Researcher</div>
+                    </div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Mississippi State University <br> Starkville, MS</span>
+                            <span class="alignright sm-text">01/24 - Present</span>
+                        </div>
+                        Conducting statistical and programmatic investigative inquires through a wide range of projects <br>
+                        Projects range from conducting a trend analysis on Northern Hemispheric snow presence  
+                        to streamlining the MS Supreme Court Drug Intervention monthly data reporting process.
+                    </p>
+                    <hr>
+                    <div class="pg-title t-center">Marketing Assistant</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Capstone Real Estate Investments <br> Starkville, MS</span>
+                            <span class="alignright sm-text">01/23 - 12/23</span>
+                        </div>
+                        Resolving different varieties of issues that may arise with residents, from package delivery
+                        to terms and compliance of their lease <br>
+                        Cross-coordinating with management and maintenance for the renovation process of the property <br>
+                        Aiding a range of clients find a space they call home <br>
+                    </p>
+                    <hr>
+                    <div class="pg-title t-center">USDA Aflatoxin Research Internship</div>
+                    <p>
+                        <div class="wrk-loc">
+                            <span class="alignleft sm-text">Mississippi State University <br> Starkville, MS</span>
+                            <span class="alignright sm-text">05/23 - 08/23</span>
+                        </div>
+                        Thorough data analysis conducted from USDA cropping data, curated a fully accessible
+                        dashboard presenting geospatial mapping with Python visualization packages.<br>
+                    </p>
+                    <hr>
+                </div>
+                <div class="section1 p-30" id="Portfolio" style="display:none;">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Portfolio</div>
+                    </div>
+                        <div class="pg-title t-center">Trend Analysis of Northern Hemispheric Snow Presence</div>
+                    <div class = "nunito-sans-prog">Programming language : Python and R </div> <br>
+
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1200" width="600" src="snowWrld.gif" style="margin: auto;">
+                    </div>
+                    
+                    <div class="sm-text p-10">Summary</div>
+                    Building on a previous trend analysis study of northern hemispheric snow presence, this project leverages
+                    a higher resolution dataset while applying the original statistical methods. <br>
+                    The project involves manipulating and preprocessing a large dataset from a netCDF file to visualize and analyze changes in
+                    snow cover from 1980 to 2023. The statistic methods from the original study will be applied to the new dataset once a preliminary
+                    exploratory analysis is thoroughly completed. <br>
+                    <div class="sm-text p-10">Products and Resources</div>
+                    
+                    A preliminary visualization of the land points from the dataset: 
+                    <a href="snowDecwLand.html" target="_blank">Interactive Global Plot</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                    <a href="https://journals.ametsoc.org/configurable/content/journals$002fhydr$002f24$002f6$002fJHM-D-22-0182.1.xml?t:ac=journals%24002fhydr%24002f24%24002f6%24002fJHM-D-22-0182.1.xml" 
+                    target="_blank">Original study currently being adapted</a> <i class="fa fa-external-link" aria-hidden="true"></i>
+
+                    <ul class="skill-set">
+                        <li>Statistical Methods; two-state Markov Chain model</li>
+                        <li>Large Data Management</li>
+                        <li>Time Series</li>
+                    </ul>
+                    
+                    <hr>
+                    <div id="SCproject">
+                        <div class="pg-title t-center">Streamline Reporting Requirement for State Agency</div>
+                        <div class = "nunito-sans-prog">Programming language : Visual Basic Application (VBA) and Python </div>
+                        <div class="sm-text p-5">Summary</div>
+                        Transforming the outdated Mississippi Supreme Court reporting process for the Drug, Mental Health, and Juvenile Intervention courts from manual labor 
+                        intensive transferring of data to a simplistic push of a button process. The entirety of the process originally demanded manual transferring
+                        of data through five different Excel workbooks. After the completed rework of the VBA Macros, the user was able to 
+                        utilize a set-up page to enter the number of courts and reporting year. Then, press a button and watch as the data is dynamically
+                        transferred through the five workbooks, resulting in a ready-to-print dashboard for each reporting statistic. <br>
+                        A second part to this project will involve the creation of a revised thorough Python dashboard bundled in an executable that will
+                        increase the longevity and usability of the reporting process for informed decision making and optimized operations within the Intervention court programs.
+                        This project supports the Mississippi Supreme Court five year strategic intervention court reporting process. 
+                        <ul class="skill-set">
+                            <li>Client Relations</li>
+                            <li>Financial State Agency Reporting Dashboards</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                    
+                    <hr>
+                    <div class="pg-title t-center">The Reverse-Transition Weighting Filter for Edge Detection for Noisy Color Images</div>
+                    <div class = "nunito-sans-prog">Programming language : Matlab </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1200" width="600" src="RTWcomp.png" style="margin: auto;">
+                    </div>
+                    <div class="sm-text p-5">Summary</div>
+                    As part of an edge detection project for an Introduction to Modern Scientific Computing course, I developed an edge detection algorithm without relying 
+                    on any built-in packages. Through the application of advanced mathematical matrix operations, the Gaussian Edge Detection method was significantly enhanced. <br>
+                    Due to the challenges posed by noisy and color images, the first two steps of the Canny algorithm (noise removal and gradient calculation) were modified to 
+                    incorporate our Reverse-Transition Weighting Filter and a Structure Tensor Method. <br>
+                    This work culminated in a publication and a conference presentation at the American Council on Science & Education. The project will also be featured in the book series 
+                    "Intelligent Computing," under the title "Imaging Science: Computer Vision, Image and Signal Processing, Pattern Recognition" (ISBN: 978-3-11-143638-8). <br>
+
+                    <div class="sm-text p-10">Products</div>
+                    S. T. Richey et al., "The Reverse-Transition Weighting Filter for Effective Edge Detection for Noisy Color Images," 2023 International Conference on Computational Science and Computational Intelligence (CSCI),
+                    Las Vegas, NV, USA, 2023, pp. 1160-1166, doi: 10.1109/CSCI62032.2023.00190. <a href="Edge-Detection-RTW-Color.pdf" target="_blank">PDF</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+
+                    <ul class="skill-set">
+                        <li>Logical Mathematical Computing Aspects</li>
+                        <li>Enhancing Traditional Methods</li>
+                        <li>Correcting Mathematical Issues in Scientific Computing</li>
+                    </ul>
+                    <hr>
+                    <div class="pg-title t-center">Text Extraction from Images, PDF Files, and Speech Data</div>
+                    <div class = "nunito-sans-prog">Programming language : Python</div>
+                    <div class="sm-text p-5">Summary</div>
+                    Widely adapted PDF interpreters lack the ability to properly and cohesively transform PDF files containing images with overlayed text to a plain text file. In this project
+                    a PDF file interpreter was created with the goal to enhance OCR methods to appropriately work line by line through a PDF file contain images. In a second part of this project,
+                    a speech to text file interpreter was created. Additional information to the methods used with limitations is included in the project write-up below. <br>
+                    <div class="sm-text p-10">Products</div>
+                    Write-up detailing the methods and limitations: <a href="Prochnow_Text Extraction from Images.pdf" target="_blank">PDF</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                    Source code accessible through GitHub link in header.
+                    <ul class="skill-set">
+                        <li>Logical Computing of real-world problems</li>
+                        <li>Computational Algorithms</li>
+                    </ul>
+
+                    <hr>
+                    <div id="Spotifyproject">
+                        <div class="pg-title t-center">Top 2000 Spotify Songs: Visualization and Analysis</div>
+                        <div class = "nunito-sans-prog">Programming language : Tableau, Python for pre-processing</div>
+                        <div class="sm-text p-5">Summary</div>
+                        As a result of the final presentation for a Data Visualization course, my team and I utilized an open-source Spotify dataset from Kaggle to create
+                        an interactive Tableau dashboard. This Tableau dashboard required pre-processing mathematical computations and cleaning of the dataset through Python. 
+                        <div class="sm-text p-10">Products and Resources</div>
+                        Final visualization and analysis write-up including methods and mathematical operations: <a href="SpotifyFinalAnalysis.pdf" target="_blank">PDF</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                        View the visualization: <a href="https://public.tableau.com/app/profile/penelope.prochnow/vizzes" target="_blank">Tableau Public Dashboard</a> <i class="fa fa-external-link" aria-hidden="true"></i> <br>
+                        <ul class="skill-set">
+                            <li>Cohesive Visualization Dashboards</li>
+                            <li>Data Manipulation</li>
+                            <li>Dataset Cleaning</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="pg-title t-center">Geospatial Analysis: Dispersal of Aspergillus Flavus AF36 Strain in Tree Nut Cropping Systems</div>
+                    <div class = "nunito-sans-prog">Programming language : Python </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1000" width="400" src="PosterPic.png" style="margin: auto;">
+                        <img height="1000" width="400" src="PosterAward.png" style="margin: auto;">
+                    </div>
+                    <div style="display: flex; justify-content: center;">
+                        <img height="1200" width="800" src="firstSlide.png" style="margin: auto;">    
+                    </div>
+                    <div class="sm-text p-5">Summary</div>
+                    In my first internship, I was tasked with creating a geospatial analysis of the aflatoxin levels and associated treatments in local Arizona crops for the USDA. The resulting
+                    choropleth maps and exploratory analysis plots were formulated into interactive features with the Dash python package, refined through .html scripts and deployed with Render.com. 
+                    At the conclusion of my internship, I entered the Mississippi Academy of Sciences Summer Science and Engineering Symposium. I was a reciptant of the Honor Mention in the poster
+                    presentation section. <br>
+                    <ul class="skill-set">
+                        <li>Cohesive Visualization Dashboards</li>
+                        <li>Exploratory Data Analysis</li>
+                        <li>Dataset Cleaning</li>
+                    </ul>
+
+                    
+                    
+                </div>
+                <div class="section1 p-30" id="Education" style="display:none;">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Education</div>
+                        <div class="vl p-15">
+                            <div class="sm-text p-10">Mississippi State University</div>
+                            <p class = "p-left20">
+                                Bachelors of Data Science <br>
+                                Statistical Modeling Concentration <br>
+                                Minor in Statistics, Minor in Computer Science <br>
+                                Expected May 2025 <br>
+                                Projected top 10% of MSU class of 2025, 3.9 GPA <br>
+                                2x Dean's List, 4x Principal's List <br>
+                            </p>
+                            <div class="sm-text p-10">Ocean Springs High School</div>
+                            <p class = "p-left20">
+                                High Honors <br>
+                                AP Capstone Candidate <br>
+                                Class of 2021 <br>
+                                Graduated top 4% of High School class, 4.96 Weighted GPA <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>
+     <div id="footer"></div>
+    <script>
+    function showSection(sectionId) {
+    document.querySelectorAll('.main-content > .section1').forEach(function(section) {
+        section.style.display = 'none';
+    });
+    document.getElementById(sectionId).style.display = 'block';
+    }
+
+    </script>
+    </body>
+</html>
