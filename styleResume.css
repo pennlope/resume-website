@@ -244,8 +244,8 @@ Main Content
     float: left;
     margin-left: 5%;
     padding: 5%;
-    width: 98%;
-    height: 90%;
+    width: 140px;
+    height: auto;
     border-width: 4px;
     border-style: solid;
     border-color: #cccccc #888888 #888888 #cccccc; /* Top, right, bottom, left */
